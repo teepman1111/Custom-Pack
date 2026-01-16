@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "key_mods"
+	group: ""
+	id: "7A13BC344ACF6958"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ars_zero:archmage_spell_staff"
+			}
+			id: "5EE316C205016A7D"
+			rewards: [{
+				amplifier: 2
+				duration_ticks: 200
+				effect: "ars_nouveau:mana_regen"
+				id: "10F3FDAD7418035B"
+				show_particles: true
+				type: "potion"
+			}]
+			tasks: [{
+				id: "5F0D035CBA7E9D51"
+				type: "checkmark"
+			}]
+			x: -84.5d
+			y: -58.5d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:book_stack"
+			}
+			id: "4840B850C2809D48"
+			rewards: [{
+				aggro: "none"
+				amount: 1
+				despawn_distance: 64.0d
+				despawn_if_dead: true
+				despawn_if_offline: true
+				duration_ticks: -1
+				entity: "ae2:tiny_tnt_primed"
+				follow: false
+				icon: {
+					id: "ae2:tiny_tnt"
+				}
+				id: "31AF64688592B90D"
+				persistent: false
+				random_spawn_area: 0.0d
+				scoreboard_tags: ""
+				set_owner: false
+				smart_spawn: true
+				spawn_limit: -1
+				spawn_x: 0.0d
+				spawn_y: 0.0d
+				spawn_z: 0.0d
+				texture_above_mob: ""
+				texture_offset_x: 0.0d
+				texture_offset_y: 0.0d
+				texture_offset_z: 0.0d
+				texture_scale: 1.0f
+				type: "summon"
+				use_absolute_coords: false
+			}]
+			tasks: [{
+				id: "3AC651934C292F58"
+				type: "checkmark"
+			}]
+			x: -83.5d
+			y: -58.5d
+		}
+		{
+			id: "2C380D759C3251F7"
+			rewards: [{
+				id: "6DD9450CEC755E0D"
+				item: {
+					count: 1
+					id: "createfood:dragon_burger_crimson_fungus"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26D8E7822EFB1BCF"
+				type: "checkmark"
+			}]
+			x: -84.5d
+			y: -57.0d
+		}
+		{
+			id: "1732BB3C99260F38"
+			tasks: [{
+				id: "4C99623AEABBB68C"
+				type: "checkmark"
+			}]
+			x: -83.5d
+			y: -57.0d
+		}
+	]
+}

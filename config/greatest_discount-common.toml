@@ -1,0 +1,12 @@
+#Amount of reduction given by the Greatest Discount Ring
+# Default: 40
+# Range: > 20
+greatestDiscount = 40
+#Amount of mana regeneration given by the Greater Regen Amulet
+# Default: 6
+# Range: > 3
+greaterRegen = 6
+#Amount of mana regeneration given by the Greatest Regen Scarf
+# Default: 12
+# Range: > 3
+greatestRegen = 12

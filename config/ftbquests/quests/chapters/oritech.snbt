@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: ""
+	id: "1993B32E1F9616AD"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

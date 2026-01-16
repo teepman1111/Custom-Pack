@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fargos_talismans"
+	group: ""
+	id: "2D096AFEFC09AE58"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+}
