@@ -780,3 +780,4 @@ logs/kubejs/server.log
 logs/kubejs/startup.log
 emi.json
 command_history.txt
+.curseclient
