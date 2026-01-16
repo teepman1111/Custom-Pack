@@ -1,109 +1,271 @@
-// KubeJS Tags Examples
-// This file contains examples of how to modify Minecraft tags using KubeJS
-// Tags can be reloaded with /reload command
+const addItemTags = [
+  // Bypass Chicken Shield Items
+  {
+    tagName: "ftb:chicken_stick",
+    itemIDs: ["allthemodium:unobtanium_mace"],
+  },
+  /*{
+    tagName: "ftb:vanilla_planks",
+    itemIDs: [
+      "minecraft:oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:birch_planks",
+      "minecraft:jungle_planks",
+      "minecraft:acacia_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:mangrove_planks",
+      "minecraft:cherry_planks",
+      "minecraft:bamboo_planks",
+      "minecraft:crimson_planks",
+      "minecraft:warped_planks",
+      "ars_nouveau:archwood_planks",
+      "malum:runewood_planks",
+    ],
+  },
+  {
+    tagName: "ftb:jewelry_metal",
+    itemIDs: [
+      "avaritia:infinity_ingot",
+      "avaritia:neutronium_ingot",
+      "cataclysm:witherite_ingot",
+      "chicken_roost:ingot_enderium",
+      "draconicevolution:awakened_draconium_ingot",
+      "draconicevolution:draconium_ingot",
+      "enderio:dark_steel_ingot",
+      "ftb:fortron_infused_ingot",
+      "ftbmaterials:refined_glowstone_ingot",
+      "ftbmaterials:refined_obsidian_ingot",
+      "irons_spellbooks:arcane_ingot",
+      "irons_spellbooks:mithril_ingot",
+      "irons_spellbooks:pyrium_ingot",
+      "irregular_implements:spectre_ingot",
+      "justdirethings:blazegold_ingot",
+      "justdirethings:eclipsealloy_ingot",
+      "malum:hallowed_gold_ingot",
+      "malum:soul_stained_steel_ingot",
+      "occultism:iesnium_ingot",
+      "oritech:duratium_ingot",
+      "oritech:prometheum_ingot",
+      "psi:psimetal",
+    ],
+  },
+  {
+    tagName: "ftb:jewelry_gem",
+    itemIDs: [
+      "actuallyadditions:black_quartz",
+      "actuallyadditions:diamatine_crystal",
+      "actuallyadditions:emeradic_crystal",
+      "actuallyadditions:palis_crystal",
+      "actuallyadditions:void_crystal",
+      "ars_nouveau:source_gem",
+      "cognition:cognitive_crystal",
+      "draconicevolution:small_chaos_frag",
+      "enderio:pulsating_crystal",
+      "ftbmaterials:dimensional_shard_gem",
+      "ftbmaterials:steel_ingot",
+      "justdirethings:celestigem",
+      "justdirethings:time_crystal",
+      "malum:fused_consciousness",
+      "malum:mnemonic_fragment",
+      "minecraft:clay_ball",
+      "oritech:fluxite",
+      "projecte:dark_matter",
+      "projecte:red_matter",
+      "psi:psigem",
+      "irons_jewelry:topaz",
+      "irons_jewelry:moonstone",
+      "irons_jewelry:peridot",
+      "irons_jewelry:onyx",
+      "irons_jewelry:garnet",
+    ],
+  },
+  {
+    tagName: "ftb:jewelry_rune",
+    itemIDs: [
+      "irons_spellbooks:arcane_rune",
+      "irons_spellbooks:blood_rune",
+      "irons_spellbooks:cooldown_rune",
+      "irons_spellbooks:ender_rune",
+      "irons_spellbooks:evocation_rune",
+      "irons_spellbooks:fire_rune",
+      "irons_spellbooks:holy_rune",
+      "irons_spellbooks:ice_rune",
+      "irons_spellbooks:lightning_rune",
+      "irons_spellbooks:nature_rune",
+      "irons_spellbooks:protection_rune",
+    ],
+  },
+  {
+    tagName: "curios:stick",
+    itemIDs: ["minecraft:stick"],
+  },
+  {
+    tagName: "curios:player_upgrade",
+    itemIDs: ["ftb:player_upgrade"],
+  },
+  {
+    tagName: "ftbunearthed:unlimited_food_source",
+    itemIDs: [
+      "relics:infinity_ham",
+      "artifacts:eternal_steak",
+      "artifacts:everlasting_beef",
+      "ftb:stable_antimatter",
+      "avaritia:cosmic_meatballs",
+      "avaritia:ultimate_stew",
+    ],
+  },
+  {
+    tagName: "ftb:pebble",
+    itemIDs: ["ftb:stone_pebble", "ftb:andesite_pebble", "ftb:diorite_pebble"],
+  },
+  {
+    tagName: "ftb:chicken_stick",
+    itemIDs: ["chicken_roost:chicken_stick"],
+  },
+  {
+    tagName: "ftb:pistons",
+    itemIDs: [
+      "minecraft:piston",
+      "minecraft:sticky_piston",
+      "create:mechanical_piston",
+      "create:sticky_mechanical_piston",
+    ],
+  },
+  {
+    tagName: "c:barrels/wood",
+    itemIDs: ["#c:barrels/wooden"],
+  },
+  {
+    tagName: "c:stones/normal",
+    itemIDs: [
+      "minecraft:andesite",
+      "minecraft:stone",
+      "minecraft:diorite",
+      "minecraft:granite",
+      "minecraft:tuff",
+      "minecraft:polished_granite",
+      "minecraft:polished_andesite",
+      "minecraft:polished_diorite",
+    ],
+  },
+  {
+    tagName: "ftbultimine:included_tools",
+    itemIDs: [
+      "mekanism:atomic_disassembler",
+      "ars_nouveau:enchanters_gauntlet",
+      "ftbunearthed:unbreakable_brush",
+      "mekanism:meka_tool",
+      "actuallyadditions:drill_light_blue",
+      "actuallyadditions:drill_black",
+      "actuallyadditions:drill_blue",
+      "actuallyadditions:drill_brown",
+      "actuallyadditions:drill_cyan",
+      "actuallyadditions:drill_gray",
+      "actuallyadditions:drill_green",
+      "actuallyadditions:drill_light_gray",
+      "actuallyadditions:drill_lime",
+      "actuallyadditions:drill_magenta",
+      "actuallyadditions:drill_orange",
+      "actuallyadditions:drill_pink",
+      "actuallyadditions:drill_purple",
+      "actuallyadditions:drill_red",
+      "actuallyadditions:drill_white",
+      "actuallyadditions:drill_yellow",
+    ],
+  },
+  {
+    tagName: "apothic_enchanting:cannot_be_converted_to_xp",
+    itemIDs: [
+      "minecraft:dragon_egg",
+      "cataclysm:ignitium_ingot",
+      "cataclysm:cursium_ingot",
+      "cataclysm:abyssal_egg",
+      "twilightforest:lich_trophy",
+      "twilightforest:alpha_yeti_trophy",
+      "twilightforest:hydra_trophy",
+      "twilightforest:snow_queen_trophy",
+      "twilightforest:knight_phantom_trophy",
+      "fdbosses:chesed_trophy",
+      "ars_nouveau:wilden_tribute",
+      "minecraft:iron_sword",
+    ],
+  },
+  {
+    tagName: "replication:cant_be_scanned",
+    itemIDs: ["gateways:gate_pearl", "compactmachines:new_machine", "enderio:conduit"],
+  },
+  {
+    tagName: "ftb:vanilla_candles",
+    itemIDs: [
+      "minecraft:candle",
+      "minecraft:white_candle",
+      "minecraft:orange_candle",
+      "minecraft:magenta_candle",
+      "minecraft:light_blue_candle",
+      "minecraft:yellow_candle",
+      "minecraft:lime_candle",
+      "minecraft:pink_candle",
+      "minecraft:gray_candle",
+      "minecraft:light_gray_candle",
+      "minecraft:cyan_candle",
+      "minecraft:purple_candle",
+      "minecraft:blue_candle",
+      "minecraft:brown_candle",
+      "minecraft:green_candle",
+      "minecraft:red_candle",
+      "minecraft:black_candle",
+    ],
+  },
+  {
+    tagName: "ftb:cuckoo",
+    itemIDs: ["create:cuckoo_clock", "create:mysterious_cuckoo_clock"],
+  },
+  {
+    tagName: "ftb:mushroom_soils",
+    itemIDs: [
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "farmersdelight:organic_compost",
+      "twilightforest:uberous_soil",
+    ],
+  },
+  { tagName: "chisel:carving/charcoal", itemIDs: ["ftbmaterials:charcoal_block"] },*/
+];
 
-// Listen to the tags event
-onEvent('tags.items', event => {
-    // Add items to existing tags
-    // Example: Add custom items to the 'minecraft:logs' tag
-    // event.add('minecraft:logs', 'kubejs:example_log')
-    
-    // Add multiple items to a tag
-    // event.add('minecraft:logs', ['kubejs:example_log', 'kubejs:another_log'])
-    
-    // Remove items from tags
-    // event.remove('minecraft:logs', 'minecraft:oak_log')
-    
-    // Remove multiple items
-    // event.remove('minecraft:logs', ['minecraft:birch_log', 'minecraft:spruce_log'])
-    
-    // Add items to custom tags (for mod compatibility)
-    // event.add('forge:ingots', 'kubejs:custom_ingot')
-    // event.add('forge:gems', 'kubejs:custom_gem')
-    
-    // Example: Make custom items work with vanilla tools
-    // event.add('minecraft:logs_that_burn', 'kubejs:flammable_log')
-    // event.add('minecraft:planks', 'kubejs:custom_plank')
-    
-    // Example: Add items to food tags
-    // event.add('forge:foods', 'kubejs:custom_food')
-    // event.add('minecraft:foods', 'kubejs:custom_food')
-});
+/*const removeItemTags = [
+  //Fixing Issues caused by Malum's Tags ==========================================================
+  {
+    tagName: "c:ingots",
+    itemIDs: ["malum:malignant_pewter_ingot"],
+  },
+  {
+    tagName: "c:tools/knife",
+    itemIDs: ["malum:soul_stained_steel_knife", "malum:sundering_anchor"],
+  },
+  {
+    tagName: "minecraft:axes",
+    itemIDs: ["malum:soul_stained_steel_axe", "malum:weight_of_worlds"],
+  },
+];*/
 
-onEvent('tags.blocks', event => {
-    // Modify block tags
-    // Example: Add custom blocks to existing tags
-    // event.add('minecraft:logs', 'kubejs:example_log_block')
-    
-    // Example: Make custom blocks mineable with specific tools
-    // event.add('minecraft:mineable/pickaxe', 'kubejs:stone_block')
-    // event.add('minecraft:mineable/axe', 'kubejs:wood_block')
-    // event.add('minecraft:mineable/shovel', 'kubejs:dirt_block')
-    // event.add('minecraft:mineable/hoe', 'kubejs:leaves_block')
-    
-    // Example: Set block properties via tags
-    // event.add('minecraft:needs_iron_tool', 'kubejs:hard_block')
-    // event.add('minecraft:needs_diamond_tool', 'kubejs:very_hard_block')
-    
-    // Example: Add to vanilla block tags
-    // event.add('minecraft:planks', 'kubejs:custom_plank_block')
-    // event.add('minecraft:leaves', 'kubejs:custom_leaves')
-    
-    // Example: Remove blocks from tags
-    // event.remove('minecraft:logs', 'minecraft:oak_log')
-});
+ServerEvents.tags("item", (event) => {
+  /*const fire_immune_items = [
+    "cognition:cognitive_flux",
+    "minecraft:iron_block",
+    "ftbmaterials:obsidian_dust",
+    "cognition:primordial_assembly",
+    "irons_spellbooks:scroll",
+    "ftbmaterials:silver_block",
+    "ftbmaterials:aluminum_block",
+    "actuallyadditions:black_quartz",
+    "minecraft:gravel",
+    "enderio:grains_of_infinity",
+  ];
+  fire_immune_items.forEach((item) => {
+    event.add("lychee:fire_immune", item);
+  });*/
 
-onEvent('tags.fluids', event => {
-    // Modify fluid tags
-    // Example: Add custom fluids to tags
-    // event.add('forge:water', 'kubejs:custom_water')
-    // event.add('forge:lava', 'kubejs:custom_lava')
-    
-    // Example: Add to mod-specific fluid tags
-    // event.add('forge:crude_oil', 'kubejs:oil')
-});
-
-onEvent('tags.entity_types', event => {
-    // Modify entity type tags
-    // Example: Add custom entities to tags
-    // event.add('minecraft:raiders', 'kubejs:custom_raider')
-    // event.add('minecraft:impact_projectiles', 'kubejs:custom_projectile')
-    
-    // Example: Remove entities from tags
-    // event.remove('minecraft:raiders', 'minecraft:pillager')
-});
-
-// Example: Create and use custom tags
-onEvent('tags.items', event => {
-    // Create a custom tag (just add items to it, and it will be created)
-    // event.add('kubejs:custom_items', [
-    //     'kubejs:item_one',
-    //     'kubejs:item_two',
-    //     'kubejs:item_three'
-    // ])
-    
-    // You can then reference this tag in recipes or other scripts
-});
-
-// Common tag examples for mod compatibility:
-onEvent('tags.items', event => {
-    // Forge/NeoForge common tags:
-    // event.add('forge:ingots', 'kubejs:custom_ingot')           // For ingots
-    // event.add('forge:nuggets', 'kubejs:custom_nugget')        // For nuggets
-    // event.add('forge:gems', 'kubejs:custom_gem')              // For gems
-    // event.add('forge:dusts', 'kubejs:custom_dust')             // For dusts
-    // event.add('forge:ores', 'kubejs:custom_ore')               // For ores
-    // event.add('forge:storage_blocks', 'kubejs:custom_block')   // For storage blocks
-    // event.add('forge:rods', 'kubejs:custom_rod')               // For rods
-    // event.add('forge:plates', 'kubejs:custom_plate')           // For plates
-    // event.add('forge:gears', 'kubejs:custom_gear')             // For gears
-    // event.add('forge:coins', 'kubejs:custom_coin')             // For coins
-});
-
-// Example: Conditional tag modifications
-onEvent('tags.items', event => {
-    // You can use conditions to only modify tags in certain scenarios
-    // if (Platform.isModLoaded('modid')) {
-    //     event.add('modid:tag', 'kubejs:compatible_item')
-    // }
+  addItemTags.forEach((tag) => {
+    event.add(tag.tagName, tag.itemIDs);
+  });
 });

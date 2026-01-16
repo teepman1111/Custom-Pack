@@ -781,3 +781,6 @@ logs/kubejs/startup.log
 emi.json
 command_history.txt
 .curseclient
+local/*
+logs/*
+.mixin.out/*
