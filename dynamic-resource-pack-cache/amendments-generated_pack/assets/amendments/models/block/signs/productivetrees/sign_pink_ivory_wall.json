@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "amendments:block/signs/sign_wall",
-	"textures": {
-		"1": "amendments:block/signs/productivetrees/sign_pink_ivory",
-		"particle": "amendments:block/signs/productivetrees/sign_pink_ivory"
-	}
-}

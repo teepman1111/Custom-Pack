@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "supplementaries:block/way_signs/template",
-	"textures": {
-		"particle": "supplementaries:block/way_signs/allthemodium/way_sign_soul",
-		"sign": "supplementaries:block/way_signs/allthemodium/way_sign_soul"
-	}
-}

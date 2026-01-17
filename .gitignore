@@ -784,3 +784,6 @@ command_history.txt
 local/*
 logs/*
 .mixin.out/*
+mods/*
+dynamic-resource-pack-cache/*
+dynamic-resource-pack-cache/

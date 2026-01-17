@@ -792,6 +792,13 @@
     "curseForgeHash": 2066399560,
     "modrinthHash": "0b4a085c1b79c86d7054342123a0ce8deaa0b174"
   },
+  "ess_requiem-0.0.7.jar": {
+    "jarName": "ess_requiem-0.0.7.jar",
+    "modId": "ess_requiem",
+    "version": "0.0.7",
+    "curseForgeHash": 1137089537,
+    "modrinthHash": "38a43bdb30e8be7f8ac9f2220a76eb16ffad3b10"
+  },
   "eventslib-1.0.57.jar": {
     "jarName": "eventslib-1.0.57.jar",
     "modId": "eventslib",
