@@ -508,6 +508,13 @@
     "curseForgeHash": 3867619736,
     "modrinthHash": "22a01df0317ab4d9207cf1c8724ec73d262ceec7"
   },
+  "create-stuff-additions1.21.1_v2.1.0e.jar": {
+    "jarName": "create-stuff-additions1.21.1_v2.1.0e.jar",
+    "modId": "create_sa",
+    "version": "2.1.0.",
+    "curseForgeHash": 3638800508,
+    "modrinthHash": "5de330acd44af9e09430a7710687ad176dabf1e2"
+  },
   "create_ars_nouveau_compat-1.21.1-1.1.jar": {
     "jarName": "create_ars_nouveau_compat-1.21.1-1.1.jar",
     "modId": "create_ars_nouveau_compat",
@@ -541,6 +548,13 @@
     "version": "0.1.3C",
     "curseForgeHash": 3204242180,
     "modrinthHash": "641e980cff2b7ca4b65c8ce98e41d25413650bd6"
+  },
+  "create_fantasizing-1.21.1-1.1.1.jar": {
+    "jarName": "create_fantasizing-1.21.1-1.1.1.jar",
+    "modId": "create_fantasizing",
+    "version": "1.1.1",
+    "curseForgeHash": 238570444,
+    "modrinthHash": "d9eec8be8fafe45537b60b24ebfc7f2c354a9fd1"
   },
   "create_hypertube-0.3.0-NEOFORGE.jar": {
     "jarName": "create_hypertube-0.3.0-NEOFORGE.jar",

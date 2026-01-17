@@ -4,7 +4,25 @@
 	filename: "oritech"
 	group: ""
 	id: "1993B32E1F9616AD"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "26030EE90C49855C"
+		rewards: [{
+			count: 4
+			id: "7369EFDE6B7A4132"
+			item: {
+				count: 1
+				id: "oritech:prometheum_ingot"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "5489116D8E47CE3C"
+			item: { count: 1, id: "oritech:prometheum_ingot" }
+			type: "item"
+		}]
+		x: -1.5d
+		y: -3.0d
+	}]
 }

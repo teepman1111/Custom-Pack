@@ -5,12 +5,25 @@
 	chapter.23D8268282E5202A.title: "Applied Energistics"
 	chapter.2D096AFEFC09AE58.title: "Fargo's Talismans"
 	chapter.3FD9178186D555E5.title: "Goals, Endgame, Bosses, Etc"
+	chapter.4DA926CB4A7C5338.title: "Write Your Own Story"
 	chapter.4E8C6861AB4CFB97.title: "Iron's Spellbooks"
 	chapter.4F16AE0E19D1623D.title: "Ars"
-	chapter.61C421289C553B50.title: "Gating"
 	chapter.64AA809B7F3DFD20.title: "Create"
 	chapter.7A13BC344ACF6958.title: "Key Mods"
 	file.0000000000000001.title: "Oozy Nightmares"
+	quest.02657F95664D7A3A.quest_desc: [
+		"Everything you've been working for - every block you've mined, enchant you've put onto tools, every dungeon you have delved - it's all been for this. "
+		""
+		"This world is your oyster. Become the Writer of Reality and make this place a place worth living in. "
+		""
+		"Hold the Soul of Dimensions in your hand while in The Beyond."
+		""
+		""
+		""
+		"Send your completion request in to blahblahblah and we will add your name to the hall of fame. "
+	]
+	quest.02657F95664D7A3A.quest_subtitle: "Master of Reality"
+	quest.02657F95664D7A3A.title: "This World Is Yours - Do Something With It"
 	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
 	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
@@ -32,6 +45,18 @@
 	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
 	quest.21426F5EEC922866.quest_desc: ["Half-submerged in the oceans lie the petrified remains of a colossal beast, its skeletal form stretching farther than the eye can follow. Was it a creature of the deep, dragged ashore in ages past—or did it fall from the heavens themselves? No records remain, only questions carved into stone."]
 	quest.21426F5EEC922866.quest_subtitle: "Find a Typhon"
+	quest.26030EE90C49855C.quest_desc: [
+		"Long before redstone hummed and mana flowed, the world whispered of a metal that refused to choose sides."
+		""
+		"Scholars called it Prometheum—a forbidden alloy born where logic fractures and magic bleeds into circuitry. It is not mined. It is convinced into existence."
+		""
+		"To craft a Prometheum Ingot is to mock the old laws: that machines are soulless, and spells are inefficient. This ingot laughs at both assumptions."
+		""
+		"You have walked both paths. Now the paths converge."
+	]
+	quest.26030EE90C49855C.quest_subtitle: "\"This should not exist\" - The Codex Paradoxium"
+	quest.26030EE90C49855C.title: "Techno-magic, baby."
+	quest.2A06337A7E308D63.title: "Soul of Dimensions"
 	quest.2A0A01BE836BB2AB.quest_desc: ["A monument of grandeur and mystery, the Shiraz Palace sprawls in every direction, its halls twisting and turning beyond comprehension. Its purpose remains unknown, but its size and opulence are undeniable. Travelers beware: without a companion, it’s all too easy to lose your way in this labyrinthine estate."]
 	quest.2A0A01BE836BB2AB.quest_subtitle: "Find the Shiraz Palace"
 	quest.2A1B0386B7987DD3.quest_desc: ["Vast and dreamlike, the Aviary stretches high into wtilight sky, its halls divided into four whimsical quadrants. Each one unfolds as a surreal scene—bright, strange, and perilous in its own way. To wander here feels like stepping beyond reality itself. Is this the journey’s end… or just another beginning?"]
@@ -77,6 +102,11 @@
 	quest.53AF2B722A69DCDC.quest_subtitle: "Find a Small Prairie House"
 	quest.541BBC35DA4F0B73.quest_desc: ["Sprouting from a cluster of towering fungi, this outpost of miners has carved their livelihood into the surface world. Ruthless and territorial, they will defend their claim with tooth and nail. Whether the giant mushrooms shield them from the sun or serve some darker purpose, none can say. One truth remains certain: the mine runs rich with ore, for those bold enough to claim it."]
 	quest.541BBC35DA4F0B73.quest_subtitle: "Find a Mushroom Mine"
+	quest.5828446056E81167.quest_desc: [
+		"A container that can be combined along three axes and has adjustable capacity!"
+		""
+		"Each tier has different storage capacity as well. These crates retain their inventory when picked up with a Create wrench (except for any items that also have an inventory, i.e., shulker boxes). Also, you can rename the crate in the GUI, and when you look at that crate it will show you the name of it without clicking on it. "
+	]
 	quest.5C12F4CC1F6F6C32.quest_desc: ["Looming among the clouds, this massive airship bristles with defenses and hostile crew. Phantom-mounted fiends circle overhead, while fish-like raiders astride hoglins stalk the decks. Boarding it is no small feat. Tthose who triumph will etch their name among the few who dared challenge the skies."]
 	quest.5C12F4CC1F6F6C32.quest_subtitle: "Find a Heavenly Challenger"
 	quest.5EE316C205016A7D.quest_desc: [
@@ -116,6 +146,7 @@
 	quest.78CCE14D9F85F17D.title: "Like looking in a mirror."
 	task.1A75B160B39248F8.title: "Ars"
 	task.26D8E7822EFB1BCF.title: "Create"
+	task.27D28609B255B0A4.title: "Hold the Soul of Dimensions in The Beyond and write your own reality."
 	task.3326A7E97A654E06.title: "Ars"
 	task.3AC651934C292F58.title: "Iron's Spellbooks"
 	task.4C99623AEABBB68C.title: "Oritech"

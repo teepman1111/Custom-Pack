@@ -4,7 +4,28 @@
 	filename: "create"
 	group: ""
 	id: "64AA809B7F3DFD20"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		icon: {
+			id: "create_fantasizing:andesite_crate"
+		}
+		id: "5828446056E81167"
+		rewards: [{
+			count: 2
+			id: "1447385B1F7224EE"
+			item: {
+				count: 1
+				id: "create_fantasizing:andesite_crate"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "10EDA43524CCF468"
+			item: { count: 1, id: "create_fantasizing:andesite_crate" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: -2.0d
+	}]
 }

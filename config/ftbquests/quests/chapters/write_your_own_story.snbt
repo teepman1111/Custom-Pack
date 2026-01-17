@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "write_your_own_story"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "4DA926CB4A7C5338"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["2D096AFEFC09AE58"]
+		hide_details_until_startable: true
+		hide_text_until_complete: true
+		icon_scale: 2.0d
+		id: "02657F95664D7A3A"
+		rewards: [{
+			auto: "enabled"
+			command: "/gamemode c @p"
+			id: "58D3B977BBBDA566"
+			type: "command"
+		}]
+		shape: "square"
+		size: 2.0d
+		tasks: [{
+			biome: "allthemodium:the_beyond"
+			duration_seconds: 2.0d
+			hand_mode: "ANY"
+			icon: {
+				id: "fargostalismans:soul_of_dimensions"
+			}
+			id: "40E914ECF66A0A3C"
+			item: { count: 1, id: "fargostalismans:soul_of_dimensions" }
+			type: "hold_item"
+		}]
+		x: -1.0d
+		y: -1.5d
+	}]
+}

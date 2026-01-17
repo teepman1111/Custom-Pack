@@ -4,7 +4,16 @@
 	filename: "fargos_talismans"
 	group: ""
 	id: "2D096AFEFC09AE58"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2A06337A7E308D63"
+		tasks: [{
+			id: "162B61FEAB9174D9"
+			item: { count: 1, id: "fargostalismans:soul_of_dimensions" }
+			type: "item"
+		}]
+		x: -7.0d
+		y: -2.0d
+	}]
 }
