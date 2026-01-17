@@ -787,3 +787,5 @@ logs/*
 mods/*
 dynamic-resource-pack-cache/*
 dynamic-resource-pack-cache/
+
+dynamic-data-pack-cache/
