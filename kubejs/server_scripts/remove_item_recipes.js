@@ -39,15 +39,11 @@ ServerEvents.recipes((event) => {
     type: "oritech:atomic_forge",
     output: "oritech:prometheum_ingot",
   });
-  event.remove({
-    type: "minecraft:smithing",
-    input: "allthemodium:allthemodium_ingot",
-    output: "allthewizardgear:allthemodium_mage_helmet",
-  });
 
   // Remove a recipe by ID. in this case, data/minecraft/recipes/glowstone.json:
   // Note: Recipe ID and output are usually different!
   //event.remove({ id: 'minecraft:glowstone' })
+  event.remove({ id: "minecraft:allthemodium_mage_helmet_smithing" });
 
   // This part, inside the curly braces, is the callback.
   // You can modify as many recipes as you like in here,
