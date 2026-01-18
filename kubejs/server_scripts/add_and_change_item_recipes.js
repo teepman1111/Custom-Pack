@@ -7,8 +7,6 @@
 
 // Listen for the "recipes" server event.
 ServerEvents.recipes((event) => {
-  // You can replace `event` with any name you like, as
-  // long as you change it inside the callback too!
   // MACE REPLACEMENT
   event.replaceInput(
     { input: "minecraft:mace" },
@@ -31,6 +29,7 @@ ServerEvents.recipes((event) => {
       F: "minecraft:trident",
     },
   );
+
   event.recipes.ars_nouveau.imbuement(
     "oritech:heisenberg_compensator", // input item
     "oritech:prometheum_ingot", // output
@@ -42,9 +41,12 @@ ServerEvents.recipes((event) => {
     ], // pedestal items
   );
 
-  // This part, inside the curly braces, is the callback.
-  // You can modify as many recipes as you like in here,
-  // without needing to use ServerEvents.recipes() again.
+  event.smithing(
+    "allthewizardgear:allthemodium_mage_helmet", // arg 1: output
+    "allthemodium:allthemodium_upgrade_smithing_template", // arg 2: the smithing template
+    "#allthewizardgear:base_wizard_helmet", // arg 3: the item to be upgraded
+    "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
+  );
 
   console.log("Hello! The recipe event has fired!");
 });

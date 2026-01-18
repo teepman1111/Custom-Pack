@@ -1553,6 +1553,13 @@
     "curseForgeHash": 3995275923,
     "modrinthHash": "1ae6f7be2ba8f963344dbf27e552920a7bc7a35f"
   },
+  "ProbeJS-7.7.2.jar": {
+    "jarName": "ProbeJS-7.7.2.jar",
+    "modId": "probejs",
+    "version": "7.7.2",
+    "curseForgeHash": 762329298,
+    "modrinthHash": "3f0b9288845fd547338b535cdaed6ef2bb3787e8"
+  },
   "productivebees-1.21.1-13.12.0.jar": {
     "jarName": "productivebees-1.21.1-13.12.0.jar",
     "modId": "productivebees",
