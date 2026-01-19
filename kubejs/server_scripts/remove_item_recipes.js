@@ -44,6 +44,9 @@ ServerEvents.recipes((event) => {
   // Note: Recipe ID and output are usually different!
   //event.remove({ id: 'minecraft:glowstone' })
   event.remove({ id: "minecraft:allthemodium_mage_helmet_smithing" });
+  event.remove({ id: "minecraft:allthemodium_mage_chestplate_smithing" });
+  event.remove({ id: "minecraft:allthemodium_mage_leggings_smithing" });
+  event.remove({ id: "minecraft:allthemodium_mage_boots_smithing" });
 
   // This part, inside the curly braces, is the callback.
   // You can modify as many recipes as you like in here,
