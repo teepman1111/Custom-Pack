@@ -7,7 +7,7 @@
 
 // Listen for the "recipes" server event.
 ServerEvents.recipes((event) => {
-  // MACE REPLACEMENT
+  //Mace progresion changes and replacement in critical recipe
   event.replaceInput(
     { input: "minecraft:mace" },
     "minecraft:mace",
@@ -30,6 +30,7 @@ ServerEvents.recipes((event) => {
     },
   );
 
+  //Integrate end-game Oritech with Ars and Iron's
   event.recipes.ars_nouveau.imbuement(
     "oritech:heisenberg_compensator", // input item
     "oritech:prometheum_ingot", // output
@@ -41,10 +42,29 @@ ServerEvents.recipes((event) => {
     ], // pedestal items
   );
 
+  //Gate ATM mage set behind late-game Iron's Spellbooks
   event.smithing(
     "allthewizardgear:allthemodium_mage_helmet", // arg 1: output
     "allthemodium:allthemodium_upgrade_smithing_template", // arg 2: the smithing template
     "#allthewizardgear:base_wizard_helmet", // arg 3: the item to be upgraded
+    "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
+  );
+  event.smithing(
+    "allthewizardgear:allthemodium_mage_chestplate", // arg 1: output
+    "allthemodium:allthemodium_upgrade_smithing_template", // arg 2: the smithing template
+    "#allthewizardgear:base_wizard_chestplate", // arg 3: the item to be upgraded
+    "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
+  );
+  event.smithing(
+    "allthewizardgear:allthemodium_mage_leggings", // arg 1: output
+    "allthemodium:allthemodium_upgrade_smithing_template", // arg 2: the smithing template
+    "#allthewizardgear:base_wizard_leggings", // arg 3: the item to be upgraded
+    "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
+  );
+  event.smithing(
+    "allthewizardgear:allthemodium_mage_boots", // arg 1: output
+    "allthemodium:allthemodium_upgrade_smithing_template", // arg 2: the smithing template
+    "#allthewizardgear:base_wizard_boots", // arg 3: the item to be upgraded
     "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
   );
 
