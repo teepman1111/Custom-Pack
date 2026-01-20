@@ -1833,12 +1833,12 @@
     "curseForgeHash": 1463809299,
     "modrinthHash": "41a9c921db31a99ec8c6f4b44e32af16a9e5176c"
   },
-  "stardew_fishing-3.5-1.21.1.jar": {
-    "jarName": "stardew_fishing-3.5-1.21.1.jar",
-    "modId": "stardew_fishing",
-    "version": "3.5",
-    "curseForgeHash": 2600943572,
-    "modrinthHash": "115b4034e07d1504db3c266c2810be53a48111df"
+  "starcatcher-2.1.2-NEOFORGE-1.21.1.jar": {
+    "jarName": "starcatcher-2.1.2-NEOFORGE-1.21.1.jar",
+    "modId": "starcatcher",
+    "version": "2.1.2-NEOFORGE-1.21.1",
+    "curseForgeHash": 2961065535,
+    "modrinthHash": "e5417be0723276af795134902228fcbfe897dca4"
   },
   "Stoneworks-v21.1.0-1.21.1-NeoForge.jar": {
     "jarName": "Stoneworks-v21.1.0-1.21.1-NeoForge.jar",

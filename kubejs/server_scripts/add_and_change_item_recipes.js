@@ -59,7 +59,12 @@ ServerEvents.recipes((event) => {
       C: "arsdelight:enchanters_knife",
     },
   );
-
+  //Minced dragon recipe adjustment
+  event.recipes.create.mixing("createfood:minced_dragon", [
+    "farmersdelight:minced_beef",
+    "apothic_enchanting:infused_breath",
+    "forbidden_arcanus:arcane_dragon_egg",
+  ]);
   //Gate ATM mage set behind late-game Iron's Spellbooks
   event.smithing(
     "allthewizardgear:allthemodium_mage_helmet", // arg 1: output
@@ -85,30 +90,8 @@ ServerEvents.recipes((event) => {
     "#allthewizardgear:base_wizard_boots", // arg 3: the item to be upgraded
     "irons_spellbooks:divine_soulshard", // arg 4: the upgrade item
   );
-
-  //Dimensional Seed recipe
-  event.shaped(
-    Item.of("allthetweaks:dimensional_seed", 1), // arg 1: output
-    [
-      "ABC",
-      "DEF", // arg 2: the shape (array of strings)
-      "GHI",
-    ],
-    {
-      A: "arsdelight:honey_glazed_chimera",
-      B: "endersdelight:steak_fries", //arg 3: the mapping object
-      C: "farmersdelight:roasted_mutton_chops",
-      D: "the_bumblezone:royal_jelly_block",
-      E: "ars_nouveau:void_prism",
-      F: "allthecompressed:end_stone_6x",
-      G: "allthecompressed:cobblestone_6x",
-      H: "allthemodium:soul_lava_bucket",
-      I: "allthecompressed:blackstone_5x",
-    },
-  );
   console.log("Hello! The recipe event has fired!");
 });
-
 //Begin end-game item recipes
 //Nexium emitter recipe
 ServerEvents.recipes((event) => {
@@ -132,7 +115,7 @@ ServerEvents.recipes((event) => {
       { item: { id: "allthetweaks:nexium_emitter", count: 1 }, chance: 1.0 },
     ],
   });
-  //Dragon Soul recipe
+  //Dragon soul recipe
   event.recipes.ars_nouveau.enchanting_apparatus(
     [
       "block_factorys_bosses:dragon_skull",
@@ -143,9 +126,43 @@ ServerEvents.recipes((event) => {
       "productivebees:inactive_dragon_egg",
       "minecraft:dragon_head",
     ], // input items
-    "createornithopterglider:ornithopterglider", // reagent
+    "forbidden_arcanus:draco_arcanus_sword", // corrected reagent
     "allthetweaks:dragon_soul", // output
     100000, // source cost
     // true // keep nbt of reagent, think like a smithing recipe
+  );
+  event.recipes.create.mechanical_crafting(
+    Item.of("allthetweaks:oblivion_shard", 1), // output
+    ["A B C", " D E ", "F G H", "  I  "],
+    {
+      A: "dndesires:gatling_breaker",
+      B: "tfmg:advanced_potato_cannon", //arg 3: the mapping object
+      C: "allthemodium:unobtainium_sword",
+      D: "ess_requiem:intertwined_peak",
+      E: "oritech:portable_laser",
+      F: "simplymore:holylight",
+      G: "alshanex_familiars:life_fruit_tier_3",
+      H: "cataclysm:the_baby_leviathan_bucket",
+      I: "createfood:dragon_burger_warped_fungus",
+    },
+  );
+  event.shaped(
+    Item.of("allthetweaks:dimensional_seed", 1), // arg 1: output
+    [
+      "ABC",
+      "DEF", // arg 2: the shape (array of strings)
+      "GHI",
+    ],
+    {
+      A: "arsdelight:honey_glazed_chimera",
+      B: "endersdelight:steak_fries", //arg 3: the mapping object
+      C: "farmersdelight:roasted_mutton_chops",
+      D: "the_bumblezone:royal_jelly_block",
+      E: "ars_nouveau:void_prism",
+      F: "allthecompressed:end_stone_6x",
+      G: "allthecompressed:cobblestone_6x",
+      H: "allthemodium:soul_lava_bucket",
+      I: "allthecompressed:blackstone_5x",
+    },
   );
 });
