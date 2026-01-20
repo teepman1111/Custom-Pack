@@ -35,6 +35,7 @@ ServerEvents.recipes((event) => {
   // event.remove({ output: 'minecraft:cooked_chicken', type: 'minecraft:campfire_cooking' })
 
   // Remove any blasting OR smelting recipes that output minecraft:iron_ingot:
+  // event.remove({ output: 'minecraft:iron_ingot', type: ['minecraft:blasting', 'minecraft:smelting'] })
   event.remove({
     type: "oritech:atomic_forge",
     output: "oritech:prometheum_ingot",
