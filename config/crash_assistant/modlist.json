@@ -389,6 +389,13 @@
     "curseForgeHash": 2767968248,
     "modrinthHash": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
   },
+  "cataclysm_dimension-neoforge1.21.1-1.5.5.jar": {
+    "jarName": "cataclysm_dimension-neoforge1.21.1-1.5.5.jar",
+    "modId": "cataclysm_dimension",
+    "version": "1.5.5",
+    "curseForgeHash": 2095963621,
+    "modrinthHash": "023db20a1c2fefbf41d3f9c7a5e9ae46e1e77dbe"
+  },
   "cataclysm_spellbooks-1.1.10-1.21.jar": {
     "jarName": "cataclysm_spellbooks-1.1.10-1.21.jar",
     "modId": "cataclysm_spellbooks",
@@ -707,6 +714,13 @@
     "version": "9.5.1+1.21.1",
     "curseForgeHash": 933317947,
     "modrinthHash": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+  },
+  "CustomizedDungeonLoot-1.21-(v.3.2.0-NEO).jar": {
+    "jarName": "CustomizedDungeonLoot-1.21-(v.3.2.0-NEO).jar",
+    "modId": "cdl",
+    "version": "3.2.0",
+    "curseForgeHash": 1072433407,
+    "modrinthHash": "3a3fb9cee9b048f760e1d9941db014bc64107f4b"
   },
   "darkdoppelganger-3.2.0-1.21.1.jar": {
     "jarName": "darkdoppelganger-3.2.0-1.21.1.jar",
@@ -1259,6 +1273,20 @@
     "curseForgeHash": 1129925363,
     "modrinthHash": "492d597ca216f9d099be112e77a9a5c7ed138770"
   },
+  "lootbundles-1.21.1-1.1.1.jar": {
+    "jarName": "lootbundles-1.21.1-1.1.1.jar",
+    "modId": "lootbundles",
+    "version": "1.21.1-1.1.1",
+    "curseForgeHash": 1607180822,
+    "modrinthHash": "c33504ff81558c63f0d769705a03cc7fdfdf3179"
+  },
+  "lootintegration_townsandtowers-1.2.jar": {
+    "jarName": "lootintegration_townsandtowers-1.2.jar",
+    "modId": "lootintegration_townsandtowers",
+    "version": "1",
+    "curseForgeHash": 1330872268,
+    "modrinthHash": "40a9dae72bea66685f15c8d2b24eb757074ac524"
+  },
   "lootintegration_wda-1.7.jar": {
     "jarName": "lootintegration_wda-1.7.jar",
     "modId": "lootintegration_wda",
@@ -1279,6 +1307,13 @@
     "version": "1",
     "curseForgeHash": 2285567459,
     "modrinthHash": "655c9bdb3477736d81afb6b8bd234b18f494a8c4"
+  },
+  "lootintegrations_integrated-1.4.jar": {
+    "jarName": "lootintegrations_integrated-1.4.jar",
+    "modId": "lootintegrations_integrated",
+    "version": "1",
+    "curseForgeHash": 2545086159,
+    "modrinthHash": "effc37b725aa0b1e5a67814718b2012161ac1b2b"
   },
   "lootintegrations_phillipsruins-1.2.jar": {
     "jarName": "lootintegrations_phillipsruins-1.2.jar",
@@ -1426,6 +1461,13 @@
     "version": "2.26.1",
     "curseForgeHash": 845432825,
     "modrinthHash": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
+  },
+  "nadir-1.0.0.jar": {
+    "jarName": "nadir-1.0.0.jar",
+    "modId": "nadir",
+    "version": "1.0.0",
+    "curseForgeHash": 4012696262,
+    "modrinthHash": "07b53ba6b4f09df9c2b2aa2a50e4fc43d056a72b"
   },
   "noanimaltemptdelay-1.21.1-1.2.jar": {
     "jarName": "noanimaltemptdelay-1.21.1-1.2.jar",
