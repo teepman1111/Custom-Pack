@@ -402,7 +402,7 @@
 	# 
 	# Default: 160
 	# Range: 0 ~ 10000
-	BLACK_HOLE_COOLDOWN = 160
+	BLACK_HOLE_COOLDOWN = 10000
 	# Cooldown (in ticks) of the naginata magic book
 	# 
 	# Default: 140
@@ -437,7 +437,7 @@
 	# 
 	# Default: 200
 	# Range: 0 ~ 10000
-	MAGIC_RAY_COOLDOWN = 200
+	MAGIC_RAY_COOLDOWN = 10000
 	# Cooldown (in ticks) of the stone spikes magic book
 	# 
 	# Default: 140

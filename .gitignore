@@ -29,3 +29,5 @@ user-prefs.json
 .probe
 
 .vscode/
+
+crash-reports/

@@ -1,0 +1,15 @@
+["Is the Cyber Dog Spawnable"]
+	#This logic activate or not the possibility to use Strange Circuits on a Dog to make it a Cyber Dog. Its used if you dont find the Forbidden Lab structure. Default = false
+	is_the_cyber_dog_spawnable = true
+
+["Cyber Dog Spawn Chance"]
+	#You can enter here a number between 0 and 1 that represents the percentage chance for the Cyber Dog of spawning. Default = 0.2
+	spawning_chance = 0.2
+
+["Cyber Dog Nuke Module"]
+	#At your own risks. Define the power of the Nuke module for the Cyber Dog. Default = 1000.0
+	nuke_force = 1000.0
+
+["Cyber Dog Upgrade Slot"]
+	#The number of upgrade slot you can put in your cyber dog. Default = 5
+	upgrade_slot_number = 5.0

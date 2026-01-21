@@ -403,6 +403,13 @@
     "curseForgeHash": 1440791265,
     "modrinthHash": "cdcc409e4ce8ee2ae605d21c453b6a3382db7121"
   },
+  "Choups Cyber Dog for 1.21.1 (v1.1.0b).jar": {
+    "jarName": "Choups Cyber Dog for 1.21.1 (v1.1.0b).jar",
+    "modId": "choups_cyber_dogs",
+    "version": "1.0.0",
+    "curseForgeHash": 390086168,
+    "modrinthHash": "1fcfc10ccf25b4901a9ffcb93f8d7fbb3e0d2f83"
+  },
   "cloth-config-15.0.140-neoforge.jar": {
     "jarName": "cloth-config-15.0.140-neoforge.jar",
     "modId": "cloth_config",
@@ -1308,6 +1315,13 @@
     "curseForgeHash": 30459468,
     "modrinthHash": "406211226f2fe1e40eb29db9fcdba1a557c1a068"
   },
+  "lukis-grand-capitals-1.1.3.jar": {
+    "jarName": "lukis-grand-capitals-1.1.3.jar",
+    "modId": "mr_lukis_grandcapitals",
+    "version": "1.1.3",
+    "curseForgeHash": 4154975689,
+    "modrinthHash": "a07986ac59268f1343737b81acd24ad34e5371ca"
+  },
   "LuminousBeasts V1.2.6 - NeoForge 1.21.1.jar": {
     "jarName": "LuminousBeasts V1.2.6 - NeoForge 1.21.1.jar",
     "modId": "luminous_beasts",
@@ -1405,6 +1419,13 @@
     "version": "1.25.12.4",
     "curseForgeHash": 3151839953,
     "modrinthHash": "32b015fbe30596100bb102c18b55200dd7cd9e6d"
+  },
+  "MouseTweaks-neoforge-mc1.21-2.26.1.jar": {
+    "jarName": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "modId": "mousetweaks",
+    "version": "2.26.1",
+    "curseForgeHash": 845432825,
+    "modrinthHash": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
   },
   "noanimaltemptdelay-1.21.1-1.2.jar": {
     "jarName": "noanimaltemptdelay-1.21.1-1.2.jar",
