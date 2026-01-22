@@ -1,9 +1,9 @@
 ["Boss Health"]
 	#Max Health : 1024
-	"Sandworm Health" = 200.0
-	"Yeti Health" = 250.0
-	"Dragon Health" = 300.0
-	"Knight Health" = 150.0
+	"Sandworm Health" = 400.0
+	"Yeti Health" = 500.0
+	"Dragon Health" = 1024.0
+	"Knight Health" = 650.0
 
 ["Boss Armor"]
 	#Max Armor : 30

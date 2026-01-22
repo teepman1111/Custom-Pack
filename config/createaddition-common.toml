@@ -37,7 +37,7 @@
 	#Alternator max input in FE (Energy transfer, not generation).
 	# Default: 5000
 	# Range: > 0
-	generator_max_output = 5000
+	generator_max_output = 10000
 	#Alternator internal capacity in FE.
 	# Default: 5000
 	# Range: > 0
@@ -45,7 +45,7 @@
 	#Alternator efficiency relative to base conversion rate.
 	# Default: 0.75
 	# Range: 0.01 ~ 1.0
-	generator_efficiency = 0.75
+	generator_efficiency = 1.0
 
 #Rolling Mill
 [rolling_mill]
