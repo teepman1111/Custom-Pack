@@ -6,5 +6,118 @@
 	id: "4F16AE0E19D1623D"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: false
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			icon_scale: 2.0d
+			id: "25ACC74141994F3F"
+			rewards: [
+				{
+					id: "182BB79927B43BFC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5E069C280D22E4"
+					table_id: 2501998888776764148L
+					type: "random"
+				}
+				{
+					id: "0757DDE91A5B5EE7"
+					item: {
+						count: 1
+						id: "ars_nouveau:novice_spell_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "3A7F5101D088C000"
+					item: { count: 1, id: "ars_nouveau:worn_notebook" }
+					type: "item"
+				}
+				{
+					id: "58E8B6FC75F8B6A7"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "335A23F22C3857AD"
+					item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+					type: "item"
+				}
+				{
+					id: "015E1F88D5BF7F0A"
+					item: { count: 1, id: "ars_additions:codex_entry" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "046E6A1A290462F6"
+			rewards: [
+				{
+					id: "2FFA00ACE3237D83"
+					item: {
+						count: 1
+						id: "ars_nouveau:apprentice_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6D6F1916CF579189"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				hand_mode: "ANY"
+				icon: {
+					id: "ars_additions:codex_entry"
+				}
+				id: "25C34A1CAC1C8C9A"
+				item: { count: 1, id: "ars_additions:codex_entry" }
+				optional_task: true
+				type: "use_item"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "17B7FF08D083849D"
+			rewards: [
+				{
+					id: "163455A88163F2E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "136ACB19C3E2641E"
+					item: {
+						count: 1
+						id: "ars_nouveau:archmage_spell_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 29L
+				id: "0414B262C7D67DDD"
+				item: { count: 1, id: "ars_additions:lost_codex_entry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+	]
 }

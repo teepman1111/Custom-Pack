@@ -28,6 +28,8 @@
 	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
+	quest.046E6A1A290462F6.quest_desc: ["Learn every &zCodex Entry Level 1&r to become an Adept."]
+	quest.046E6A1A290462F6.quest_subtitle: "Gotta hit the Scrolls"
 	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
@@ -35,6 +37,8 @@
 	quest.14857DBF1DCBF100.quest_desc: ["Cresting the waves like a shadow of the past, this cursed vessel is crewed by skeletons that seem impossible to keep down. Every deck hides danger, every hold whispers of lost treasure and every strike you land may be fleeting. Only the bold (or the foolhardy) dare to face its relentless undead crew."]
 	quest.14857DBF1DCBF100.quest_subtitle: "Find an Undead Pirate Ship"
 	quest.1732BB3C99260F38.quest_subtitle: "WE LOVE NEW MODS!!!!!"
+	quest.17B7FF08D083849D.quest_desc: ["Aquire all 29 &dLost Codex Level 2&r."]
+	quest.17B7FF08D083849D.quest_subtitle: "Working on your Masters"
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
@@ -145,6 +149,7 @@
 	quest.78CCE14D9F85F17D.quest_subtitle: "Mimicry is a form of obsession."
 	quest.78CCE14D9F85F17D.title: "Like looking in a mirror."
 	task.1A75B160B39248F8.title: "Ars"
+	task.25C34A1CAC1C8C9A.title: "Road to an Adept"
 	task.26D8E7822EFB1BCF.title: "Create"
 	task.27D28609B255B0A4.title: "Hold the Soul of Dimensions in The Beyond and write your own reality."
 	task.3326A7E97A654E06.title: "Ars"
